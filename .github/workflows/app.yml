@@ -26,6 +26,8 @@ jobs:
         registry-url: 'https://npm.pkg.github.com'
     - name: "Install Reqs"
       run: npm install
+    - run: git config --global user.email "packageMananager@gooble.email"
+    - run: git config --global user.name "Cube Drone"
     - name: "Set NPM version"
       run: npm version 1.0.`git rev-list --count main`
     - name: "Deploy to fake NPM"
