@@ -27,7 +27,7 @@ jobs:
     - name: "Install Reqs"
       run: npm install
     - name: "Set NPM version"
-      run: cd app && npm version 1.0.`git rev-list --count main`
+      run: npm version 1.0.`git rev-list --count main`
     - name: "Deploy to fake NPM"
       run: npm publish
       env:
