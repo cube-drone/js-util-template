@@ -30,6 +30,7 @@ jobs:
       run: npm run test
     - run: git config --global user.email "packageMananager@gooble.email"
     - run: git config --global user.name "Cube Drone"
+    - run: git rev-list --count main
     - name: "Set NPM version"
       run: npm version 1.0.`git rev-list --count main`
     - name: "Deploy to fake NPM"
