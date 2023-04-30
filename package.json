@@ -1,6 +1,6 @@
 {
   "name": "@cube-drone/js-util-template",
-  "version": "1.0.0",
+  "version": "1.0.8",
   "description": "You probably don't need to use this package directly, it's a template",
   "main": "index.js",
   "scripts": {
