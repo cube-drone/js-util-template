@@ -7,7 +7,14 @@ It's set up to take whatever npm package that lives within it and stuff it into
 GitHub Packages under your namespace automagically
 (delete this template message when you copy the repo)
 
-# RunDMC
+## Step 0:
+* Change the package.json to reflect the actual package details
+* Add code to index.js
+* That's pretty much it
+
+The reference package is this one: 
+
+## RunDMC
 
 dirt-quick utility functions wrapping node's `child_process` that I use in automation
 tasks so that I don't need to remember exactly how `child_process` works every time
