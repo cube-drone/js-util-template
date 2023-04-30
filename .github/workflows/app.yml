@@ -26,6 +26,8 @@ jobs:
         registry-url: 'https://npm.pkg.github.com'
     - name: "Install Reqs"
       run: npm install
+    - name: "Run the Tests"
+      run: npm run test
     - run: git config --global user.email "packageMananager@gooble.email"
     - run: git config --global user.name "Cube Drone"
     - name: "Set NPM version"
